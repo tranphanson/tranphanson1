@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="chọn loại tin rao:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:text="Tin Thường"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:text="Tin Vip 2"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:text="Tin Vip 1"
+        android:layout_height="wrap_content" />
+    <RadioButton
+    android:layout_width="wrap_content"
+    android:text="Tin Vip Pro"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Thời gian đăng: "
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/draw_test2"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Up tin tự động:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="190dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Thành Tiền:"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="0 VND"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="LƯU VÀ TIẾP TỤC"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

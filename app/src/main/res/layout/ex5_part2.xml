@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Thông Tin Cơ Bản"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/draw_test2"
+        android:text="Nhập số cửa" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/draw_test2"
+        android:text="Nhập số chỗ ngồi" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/draw_test2"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/draw_test2"
+            android:text="Hộp Số: " />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/draw_test2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/draw_test2"
+            android:text="Dẫn Động:" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/draw_test2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/draw_test2"
+            android:text="Nhiên Liệu:" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Mức tiêu thụ:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/draw_test2"
+        android:text="Nhập mức tiêu thụ " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Đô Thị"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/draw_test2"
+            android:text="Nhập mức tiêu thụ " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Đường trường"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Thông Số Kỹ Thuật"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Nhập kích thước Dài x Rộng x Cao"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập chiều dài cơ sở mm"/>
+</LinearLayout>
